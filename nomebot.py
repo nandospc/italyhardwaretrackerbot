@@ -60,7 +60,7 @@ async def check_prices():
     """Funzione principale che esegue il monitoraggio ciclico."""
     bot = Bot(token=TOKEN)
     history = load_history()
-    print(f"[{datetime.now().strftime('%d/%m/%Y %H:%M:%S')}] ItalyHardwareTrackerBot in funzione...")
+    print(f"[{datetime.now().strftime('%d/%m/%Y %H:%M:%S')}] NomeBot in funzione...")
 
     while True: 
         products = load_products_from_csv()
