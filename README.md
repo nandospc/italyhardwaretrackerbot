@@ -14,13 +14,13 @@ Posizionati quindi nella cartella appena creata e crea un ambiente virtuale col 
 python3 -m venv venv && source venv/bin/activate
 
 E installa le librerie indicate nel file requirements.txt col comando:
-
+```
 pip install -r requirements.txt
+```
 
 Per far sì che il bot non si fermi quando chiudi il terminale, usa systemd per creare un servizio dedicato, creando un file in /etc/systemd/system/nomebot.service col codice seguente:
 
------
-
+```
 [Unit]
 Description=inserisci la tua descrizione
 After=network.target
@@ -36,22 +36,27 @@ RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
-
------
+```
 
 Dove utente e nomebot sono i nomi che avete associato al bot.
 È possibile poi lanciarlo col comando:
 
+```
 sudo systemctl start nomebot.service
+```
 
 Per controllarne lo statto, invece, usa il comando:
 
+```
 sudo systemctl status nomebot.service
+```
 
 Ricorda di inserire in TOKEN il token associato da Telegram al tuo bot, mentre in CHAT_ID l'id della chat associata al tuo bot in Telegram, o del canale, o gruppo, in cui è invitato il bot.
 
 Ho aggiunto anche due script per far partire o stoppare il bot, oltre uno per controllarne il log, che devono essere impostato come eseguibili dal terminale col comando:
 
+```
 chmod +x start_bot.sh stop_bot.sh logs.sh
+```
 
 Il file prodotti.csv, invece, contiene l'elenco dei prodotti da poter tracciare. Potete popolarlo con quelli che volete. Vi basterà inserire l'ASIN del prodotto Amazon nella prima colonna, la descrizione del prodotto nella seconda, e il prezzo target nella terza. Quando il bot noterà un prezzo inferiore per un prodotto, se intercettato nel lasso di tempo in cui è in funzione allora segnalerà l'offerta come indicato. Un file json, intanto, controllerà lo stato delle segnalazioni già effettuate ed eviterà di duplicarle.
