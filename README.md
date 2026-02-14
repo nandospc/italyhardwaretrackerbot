@@ -64,3 +64,7 @@ chmod +x start_bot.sh stop_bot.sh logs.sh
 ```
 
 Il file prodotti.csv, invece, contiene l'elenco dei prodotti da poter tracciare. Potete popolarlo con quelli che volete. Vi basterà inserire l'ASIN del prodotto Amazon nella prima colonna, la descrizione del prodotto nella seconda, e il prezzo target nella terza. Quando il bot noterà un prezzo inferiore per un prodotto, se intercettato nel lasso di tempo in cui è in funzione allora segnalerà l'offerta come indicato. Un file json, intanto, controllerà lo stato delle segnalazioni già effettuate ed eviterà di duplicarle.
+
+# Come creare il bot su Telegram
+
+Semplicemente parla con @BotFather, crea il bot e segnati il valore di API TOKEN, che ti servirà nel valore TOKEN del codice del bot.
