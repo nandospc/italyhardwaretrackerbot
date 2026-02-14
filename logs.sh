@@ -1,2 +1,2 @@
 #!/bin/bash
-journalctl -u italyhardwaretrackerbot.service -f
+journalctl -u nomebot.service -f
