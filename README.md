@@ -68,3 +68,7 @@ Il file prodotti.csv, invece, contiene l'elenco dei prodotti da poter tracciare.
 # Come creare il bot su Telegram
 
 Semplicemente parla con @BotFather, crea il bot e segnati il valore di API TOKEN, che ti servirà nel valore TOKEN del codice del bot.
+
+# Dove conviene farlo girare
+
+Il mio consiglio è una VPS in cloud o un MiniPC in locale che abbia un TDP molto basso. Data la poca potenza di calcolo necessaria, è possibile hostarlo anche su un Raspberry Pi o un vecchio NUC. Si accettano ulteriori raccomandazioni.
