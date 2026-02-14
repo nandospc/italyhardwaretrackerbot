@@ -5,13 +5,17 @@ Creato da Nando, Admin della community di r/ItalyHardware, questo semplice bot m
 Ti serve innanzitutto Python.
 In ambiente Linux, installalo da terminale, se non presente, ad esempio col comando:
 
+```
 sudo apt-get install python3
+```
 
 E poi crea una cartella col nome che vuoi dare al bot. Copiaci all'interno i file scaricabili nella release di questo repository.
 
 Posizionati quindi nella cartella appena creata e crea un ambiente virtuale col comando:
 
+```
 python3 -m venv venv && source venv/bin/activate
+```
 
 E installa le librerie indicate nel file requirements.txt col comando:
 ```
