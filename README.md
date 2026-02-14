@@ -42,7 +42,7 @@ RestartSec=10
 WantedBy=multi-user.target
 ```
 
-Dove utente e nomebot sono i nomi che avete associato al bot.
+Dove utente e nomebot sono i nomi che avete associato al bot, che è da sostituire in tutte le sue istanze per non lasciarlo anonimo come in questo esempio.
 È possibile poi lanciarlo col comando:
 
 ```
