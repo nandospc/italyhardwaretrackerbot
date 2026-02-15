@@ -72,3 +72,9 @@ Semplicemente parla con @BotFather, crea il bot e segnati il valore di API TOKEN
 # Dove conviene farlo girare
 
 Il mio consiglio è una VPS in cloud o un MiniPC in locale che abbia un TDP molto basso. Data la poca potenza di calcolo necessaria, è possibile hostarlo anche su un Raspberry Pi o un vecchio NUC. Si accettano ulteriori raccomandazioni.
+
+# Dove parlarne?
+
+Qui nelle discussioni oppure sul thread ufficiale di Reddit https://www.reddit.com/r/ItalyHardware/comments/1r5ag7e/progetto_italyhardware_tracker_bot/
+
+LLAP 🖖
