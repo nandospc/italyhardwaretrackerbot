@@ -77,4 +77,17 @@ Il mio consiglio è una VPS in cloud o un MiniPC in locale che abbia un TDP molt
 
 Qui nelle discussioni oppure sul thread ufficiale di Reddit https://www.reddit.com/r/ItalyHardware/comments/1r5ag7e/progetto_italyhardware_tracker_bot/
 
+## ⚖️ Disclaimer e Note Legali
+
+Questo progetto è stato creato a scopo puramente didattico e informativo per la community di r/ItalyHardware. 
+
+L'utilizzo di questo script per lo scraping di siti web può violare i **Termini di Servizio (ToS)** di Amazon e le direttive del file `robots.txt`. Utilizzando questo codice, l'utente accetta le seguenti condizioni:
+
+* **Responsabilità:** L'autore non si assume alcuna responsabilità per eventuali ban di account, blocchi degli indirizzi IP o altre sanzioni derivanti dall'uso improprio di questo software.
+* **Uso Etico:** Si raccomanda di impostare tempi di attesa (`asyncio.sleep`) ragionevoli tra le richieste per non sovraccaricare i server e rispettare il carico della piattaforma.
+* **Soluzioni Ufficiali:** Per un utilizzo conforme e professionale, è caldamente consigliato l'uso delle [Amazon Product Advertising API](https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html), accessibili tramite il programma Amazon Associates.
+* **Licenza:** Il software è fornito "così com'è" (AS IS), come specificato nella Licenza MIT inclusa nel progetto.
+
+L'utente è l'unico responsabile della conformità alle leggi locali e ai termini d'uso dei servizi di terze parti.
+
 LLAP 🖖
