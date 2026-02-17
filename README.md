@@ -77,7 +77,7 @@ Il mio consiglio è una VPS in cloud o un MiniPC in locale che abbia un TDP molt
 
 Qui nelle discussioni oppure sul thread ufficiale di Reddit https://www.reddit.com/r/ItalyHardware/comments/1r5ag7e/progetto_italyhardware_tracker_bot/
 
-## ⚖️ Disclaimer e Note Legali
+# ⚖️ Disclaimer e Note Legali
 
 Questo progetto è stato creato a scopo puramente didattico e informativo per la community di r/ItalyHardware. 
 
